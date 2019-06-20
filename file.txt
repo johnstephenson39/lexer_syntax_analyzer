@@ -1,0 +1,9 @@
+prev := 0;
+curr := 1;
+
+for iter from 0 to N-1 do // iterative fibonacci
+tmp := prev + curr;
+prev := curr;
+curr := tmp;
+end
+;

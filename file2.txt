@@ -1,0 +1,8 @@
+prev := 0
+curr := -1;
+/ not a comment
+for iter from 1 by 2 do
+tmp := prev (+ curr);
+prev = curr;
+curr := ;
+end
